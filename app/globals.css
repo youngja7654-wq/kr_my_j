@@ -4,10 +4,10 @@
 @media(max-width:520px){h1{font-size:46px}.hero-text br{display:none}.day-cell{min-height:82px}.calendar-chip{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.raid-table-head{font-size:8px}.raid-row{font-size:10px}.raid-row>span{padding:10px 5px}.section-heading .text-button{display:none}}
 
 /* Multi-day calendar ranges */
-.calendar-grid{grid-template-rows:repeat(6,132px);position:relative}
-.day-cell{min-height:132px;padding:80px 10px 8px}
+.calendar-grid{grid-template-rows:repeat(6,122px);position:relative}
+.day-cell{min-height:122px;padding:84px 10px 8px}
 .day-number{position:absolute;left:10px;top:7px;margin:0;z-index:4}
-.range-bar{align-self:start;height:18px;margin-left:4px;margin-right:4px;padding:2px 9px;z-index:3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:10px;line-height:14px;font-weight:900;box-shadow:0 2px 5px #26374f18}
+.range-bar{align-self:start;height:14px;margin-left:4px;margin-right:4px;padding:1px 7px;z-index:3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:8px;line-height:12px;font-weight:900;box-shadow:0 1px 3px #26374f15}
 .range-bar.event{background:#dff6ec;color:#176b49;border-left:4px solid #20a86a}
 .range-bar.raid{background:#ffe4e7;color:#a3313d;border-left:4px solid #ed5967}
 .range-bar.max{background:#eee7ff;color:#6240ad;border-left:4px solid #8057d4}
@@ -16,5 +16,5 @@
 .range-bar.end{border-radius:0 4px 4px 0}
 .range-bar.single{border-radius:4px}
 
-@media(max-width:800px){.calendar-grid{grid-template-rows:repeat(6,122px)}.day-cell{min-height:122px;padding:80px 6px 6px}.day-number{left:6px}.range-bar{margin-left:2px;margin-right:2px;padding-left:5px;padding-right:5px;font-size:8px}}
-@media(max-width:520px){.calendar-grid{grid-template-rows:repeat(6,116px)}.day-cell{min-height:116px}.range-bar{font-size:7px;letter-spacing:-.03em}}
+@media(max-width:800px){.calendar-grid{grid-template-rows:repeat(6,116px)}.day-cell{min-height:116px;padding:82px 6px 6px}.day-number{left:6px}.range-bar{height:13px;margin-left:2px;margin-right:2px;padding:1px 4px;font-size:7px;line-height:11px}}
+@media(max-width:520px){.calendar-grid{grid-template-rows:repeat(6,112px)}.day-cell{min-height:112px}.range-bar{height:12px;font-size:6px;line-height:10px;letter-spacing:-.04em}}
